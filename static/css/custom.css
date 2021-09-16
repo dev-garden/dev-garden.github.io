@@ -1,0 +1,40 @@
+/*@font-face {
+    font-family: "Basis Grotesque Pro";
+    src: url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.eot");
+    src: url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.woff") format("woff"), 
+    url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/3ddd0e3d1a076e112b27d8d9b7e20200.svg#Basis Grotesque Pro") format("svg");
+}
+@font-face {
+    font-family: 'Avenir Next';
+    src: url(public/fonts/94f2f163d4b698242fef.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: "Font Awesome 5";
+    src: url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/webfonts/fa-solid-900.ttf") format("truetype");
+    src: url("https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/webfonts/fa-regular-400.ttf") format("truetype");
+}
+
+.theme-settings,
+html[data-theme=dark] {
+    /* === FONTS === */
+    --ts-monospace-font: "SF Mono", "Fira Code", "JetBrains Mono", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
+    --ts-serif-font: "SF Pro Text", "Avenir Next", system-ui,"Font Awesome 5",-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
+}
+
+.theme-settings,
+html[data-theme=light] {
+    /* === FONTS === */
+    --ts-monospace-font: "SF Mono", "Fira Code", "JetBrains Mono", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
+    --ts-serif-font: "SF Pro Text", "Avenir Next", system-ui,"Font Awesome 5",-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
+}
+
+#main-container {
+    margin-top: 30px;
+}
