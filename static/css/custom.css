@@ -1,8 +1,8 @@
 .theme-settings,
 html[data-theme=dark] {
     /* === FONTS === */
-    --ts-monospace-font: "SF Mono", "JetBrains Mono", "Fira Code", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
-    --ts-serif-font: "SF Pro Text", "Airbnb Cereal App", system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
+    --ts-monospace-font: "SF Mono", "Fira Code", "JetBrains Mono", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
+    --ts-serif-font: "SF Pro Text", "Avenir Next", system-ui,"Font Awesome 5",-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
     /* === LS Features === */
     --ts-cloze-color: var(--cd-active-color-2);
     /* === SELECTIONS === */
@@ -83,27 +83,28 @@ html[data-theme=dark] {
     --ts-ext-link-weight: 300;
     --ts-ext-link-style: italic;
     /* == COLORS == */
-    --cd-primary-bg-color: #292828;
-    --cd-secondary-bg-color: #252424;
-    --cd-alternate-bg-color: #212020;
-    --cd-quaternary-bg-color: #1d1c1c;
-    --cd-highlight-bg-color: #3e3e3e;
-    --cd-inactive-color: #545353;
-    --cd-active-color: #696969;
-    --cd-primary-text-color: #D4BE98;
-    --cd-alternate-text-color: #D4BE98;
-    --cd-active-color-1: #7DAEA3;
-    --cd-active-color-2: #D3869B;
-    --cd-active-color-3: #A9B665;
-    --cd-active-color-4: #D8A657;
-    --cd-active-color-5: #E78A4E;
-    --cd-active-color-6: ;
-    --cd-active-color-7: ;
-    --cd-active-color-8: ;
-    --cd-active-color-9: ;
+    --cd-primary-bg-color: #222436;
+    --cd-secondary-bg-color: #1f2031;
+    --cd-alternate-bg-color: #1b1d2b;
+    --cd-quaternary-bg-color: #181926;
+    --cd-highlight-bg-color: #31344E;
+    --cd-inactive-color: #323347;
+    --cd-active-color: #41435e;
+    --cd-primary-text-color: #C0CDF3;
+    --cd-alternate-text-color: #adb9db;
+    --cd-active-color-1: #9ece6a;
+    --cd-active-color-2: #f7768e;
+    --cd-active-color-3: #ff9e64;
+    --cd-active-color-4: #e0af68;
+    --cd-active-color-5: #73daca;
+    --cd-active-color-6: #2ac3de;
+    --cd-active-color-7: #7dcfff;
+    --cd-active-color-8: #7aa2f7;
+    --cd-active-color-9: #bb9af7;
     --cd-active-color-10: ;
     --cd-active-color-11: ;
-    --cd-standby-color-1: #EA6962;
+    --cd-standby-color-1: #2ac3de;
+    --cd-standby-color-1-light: #18a99961;
     /* Highlighter Plugin */
     --cd-mark-yellow: #e9c46a;
     --cd-mark-red: #DB3A34;
@@ -118,8 +119,8 @@ html[data-theme=dark] {
 .theme-settings,
 html[data-theme=light] {
     /* === FONTS === */
-    --ts-monospace-font: "JetBrains Mono", "Fira Code", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
-    --ts-serif-font: "Airbnb Cereal App", system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
+    --ts-monospace-font: "SF Mono", "Fira Code", "JetBrains Mono", Monaco, Menlo, Consolas, 'COURIER NEW', monospace; /* Primarily for inline code and code blocks */
+    --ts-serif-font: "SF Pro Text", "Avenir Next", system-ui,"Font Awesome 5",-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'; /* Used for 90% of all blocks */
     /* === LS Features === */
     --ts-cloze-color: var(--cd-active-color-1);
     /* === SELECTIONS === */
@@ -201,27 +202,28 @@ html[data-theme=light] {
     --ts-ext-link-weight: 300;
     --ts-ext-link-style: italic;
     /* == COLORS == */
-    --cd-primary-bg-color: #FBF1C7;
-    --cd-secondary-bg-color: #e2d9b3;
-    --cd-alternate-bg-color: #c9c19f;
-    --cd-quaternary-bg-color: #b0a98b;
-    --cd-highlight-bg-color: #c9c19f;
-    --cd-inactive-color: #e2d9b3;
-    --cd-active-color: #979177;
-    --cd-primary-text-color: #605645;
-    --cd-alternate-text-color: #605645;
-    --cd-active-color-1: #45707A;
-    --cd-active-color-2: #945E80;
-    --cd-active-color-3: #6C782E;
-    --cd-active-color-4: #C35E0A;
-    --cd-active-color-5: #B47109;
-    --cd-active-color-6: ;
-    --cd-active-color-7: ;
-    --cd-active-color-8: ;
-    --cd-active-color-9: ;
-    --cd-active-color-10: ;
-    --cd-active-color-11: ;
-    --cd-standby-color-1: #C14A4A;
+    --cd-primary-bg-color: #FCFFFC;
+    --cd-secondary-bg-color: #EFF2EF;
+    --cd-alternate-bg-color: #E3E6E3;
+    --cd-quaternary-bg-color: #D6D9D6;
+    --cd-highlight-bg-color: #dddee2;
+    --cd-inactive-color: #ececec;
+    --cd-active-color: #dadada;
+    --cd-primary-text-color: #646564;
+    --cd-alternate-text-color: #313131;
+    --cd-active-color-1: #028090;
+    --cd-active-color-2: #565f89;
+    --cd-active-color-3: #2e5077;
+    --cd-active-color-4: #8c4351;
+    --cd-active-color-5: #965027;
+    --cd-active-color-6: #8f5e15;
+    --cd-active-color-7: #83ac57;
+    --cd-active-color-8: #33635c;
+    --cd-active-color-9: #166775;
+    --cd-active-color-10: #34548a;
+    --cd-active-color-11: #5a4a78;
+    --cd-standby-color-1: #18a999;
+    --cd-standby-color-1-light: #18a99855;
     --cd-mark-yellow: #e9c46a;
     --cd-mark-red: #DB3A34;
     --cd-mark-purple: #5941a9;
@@ -687,20 +689,20 @@ a.tag:hover {
     text-transform: var(--ts-property-key-transform);
     color: var(--ts-property-key-color);
     font-weight: var(--ts-property-key-weight);
-    font-size: 85%;
+    font-size: 100%;
 }
 
 .mr-1 {
     color: var(--ts-property-key-color);
     font-weight: var(--ts-property-key-weight);
-    font-size: 85%;
+    font-size: 100%;
 }
 
 .inline.mr-1 {
     color: var(--ts-property-value-color);
     font-weight: var(--ts-property-value-weight);
     text-transform: var(--ts-property-value-transform);
-    font-size: 85%;
+    font-size: 100%;
 }
 
 /* BLOCK REFERENCES */
