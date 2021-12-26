@@ -1,57 +1,21 @@
-/*.tippy-tooltip-content > .tippy-wrapper {
-  min-width: 600px;
-  width: fit-content !important;
-  max-width: 800px;
-  height: 295px;
-  border-radius: 4px;
-  background: var(--cd-alternate-bg-color);
-}
-
-.tippy-wrapper,
-.tippy-tooltip {
-  background: var(--cd-alternate-bg-color);
-  width: fit-content !important;
-  max-width: 600px;
-  zoom: 100%;
-}
-
-.tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) a {
-  color: var(--cd-primary-text-color);
-}
-
-.tippy-wrapper > :is(div:first-child, h2:first-child, .block-parents) {
-  display: inline-flex;
-  align-items: center;
-  position: absolute;
-  left: -1.0em;
-  top: -1.5em;
-  font-size: 80%;
-  z-index: 2;
-  opacity: 1;
-  padding: 2px 1em 2px 1em !important;
-  background: var(--cd-active-color-1);
-  white-space: nowrap;
-  font-weight: 500;
-  color: var(--cd-primary-text-color);
-  border-radius: 4px;
-}*/
-
-.ls-block :is(h1, h2, h3, h4, h5, h6) {
-    border-bottom: 0px solid red;
-    margin: 0;
-}
-
-.editor-inner .h1,
-.editor-inner .h2 {
-    border-bottom: 0px solid transparent;
-    margin: 0 0 0;
-}
-
-pre {
-    background-color: var(--cd-primary-bg-color);
-    filter: contrast(90%);
-}
-
 :root {
-  --ls-main-content-max-width-wide: 100%;
+  --ls-font-family: "SF Pro Text", "Nunito Sans", "Basis Grotesque Pro", "Open Sans", "Airbnb Cereal App", "Euclid Circular A", "TT Norms Pro", "Avenir Next LT Pro";
+}
+
+:not(pre)>code {
+  font-family: "SF Mono";
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+#main-content-container, #main-container {
+  padding: 0rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.block-marker {
+  display: none;
 }
