@@ -1,7 +1,3 @@
-:not(pre)>code {
-  font-family: "SF Mono";
-}
-
 .dark-theme,
 html[data-theme='dark'] {
   --bg-color: hsl(234, 23%, 17%);
