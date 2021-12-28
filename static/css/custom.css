@@ -240,3 +240,8 @@ html[data-theme=light] .cp__right-sidebar :not(pre)>code, html[data-theme=dark] 
     position: relative;
     right: -0.4px;
 }
+
+
+.block-children {
+  border-left: 0px solid !important;
+}
