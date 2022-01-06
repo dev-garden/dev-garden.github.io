@@ -770,15 +770,9 @@ $frontend$extensions$excalidraw$draw_inner$$ = $APP.$rum$core$lazy_build$$($APP.
   $APP.$frontend$state$sub$$($APP.$cljs$cst$keyword$git_SLASH_current_DASH_repo$$);
   $APP.$rum$core$react$$($frontend$extensions$excalidraw$_STAR_bounding_width$$);
   var $_STAR_draw_width$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($state$jscomp$280$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_draw_DASH_width$$), $_STAR_zen_mode_QMARK_$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($state$jscomp$280$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_zen_DASH_mode_QMARK_$$), $_STAR_view_mode_QMARK_$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($state$jscomp$280$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_view_DASH_mode_QMARK_$$), 
-<<<<<<< HEAD
   $wide_mode_QMARK_$$ = $APP.$frontend$state$sub$$($APP.$cljs$cst$keyword$ui_SLASH_wide_DASH_mode_QMARK_$$), $_STAR_elements$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($state$jscomp$280$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_elements$$), $file$jscomp$99$$ = $APP.$cljs$cst$keyword$file$$.$cljs$core$IFn$_invoke$arity$1$($option$jscomp$25$$);
   return $APP.$cljs$core$truth_$$($data$jscomp$205$$) ? $APP.$daiquiri$core$create_element$$("div", {onMouseDown:function($e$jscomp$686$$) {
     return $APP.$frontend$util$stop$$($e$jscomp$686$$);
-=======
-  $wide_mode_QMARK_$$ = $APP.$frontend$state$sub$$($APP.$cljs$cst$keyword$ui_SLASH_wide_DASH_mode_QMARK_$$), $_STAR_elements$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($state$jscomp$280$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_elements$$), $file$jscomp$98$$ = $APP.$cljs$cst$keyword$file$$.$cljs$core$IFn$_invoke$arity$1$($option$jscomp$25$$);
-  return $APP.$cljs$core$truth_$$($data$jscomp$205$$) ? $APP.$daiquiri$core$create_element$$("div", {onMouseDown:function($e$jscomp$685$$) {
-    return $APP.$frontend$util$stop$$($e$jscomp$685$$);
->>>>>>> 4e9e26ea08acfc48e9ea8494ab8058346804ff01
   }, className:"overflow-hidden"}, [$APP.$daiquiri$core$create_element$$("div", {style:{fontSize:10}, className:"my-1"}, [$APP.$daiquiri$core$create_element$$("a", {onClick:$APP.$frontend$handler$ui$toggle_wide_mode_BANG_$$, className:"mr-2"}, [$APP.$daiquiri$interpreter$interpret$$($APP.$frontend$util$format$cljs$0core$0IFn$0_invoke$0arity$0variadic$$("Wide Mode (%s)", $APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([$APP.$cljs$core$truth_$$($wide_mode_QMARK_$$) ? "ON" : "OFF"])))]), 
   $APP.$daiquiri$core$create_element$$("a", {onClick:function() {
     return $APP.$cljs$core$swap_BANG_$$.$cljs$core$IFn$_invoke$arity$2$($_STAR_zen_mode_QMARK_$$, $APP.$cljs$core$not$$);
@@ -790,36 +784,23 @@ $frontend$extensions$excalidraw$draw_inner$$ = $APP.$rum$core$lazy_build$$($APP.
   }, onBlur:function() {
     return $APP.$frontend$state$set_state_BANG_$$($APP.$cljs$cst$keyword$block_SLASH_component_DASH_editing_DASH_mode_QMARK_$$, !1);
   }, className:"draw-wrap"}, [$APP.$daiquiri$interpreter$interpret$$(function() {
-<<<<<<< HEAD
     var $G__99619$$ = $APP.$cljs$core$merge$$.$cljs$core$IFn$_invoke$arity$variadic$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([new $APP.$cljs$core$PersistentArrayMap$$(null, 6, [$APP.$cljs$cst$keyword$on_DASH_change$$, function($elements$jscomp$16$$, $state__$1$jscomp$10_state__$2$$) {
-=======
-    var $G__99597$$ = $APP.$cljs$core$merge$$.$cljs$core$IFn$_invoke$arity$variadic$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([new $APP.$cljs$core$PersistentArrayMap$$(null, 6, [$APP.$cljs$cst$keyword$on_DASH_change$$, function($elements$jscomp$16$$, $state__$1$jscomp$10_state__$2$$) {
->>>>>>> 4e9e26ea08acfc48e9ea8494ab8058346804ff01
       var $elements__GT_clj$$ = $APP.$cljs_bean$core$__GT_clj$$($elements$jscomp$16$$);
       return $APP.$cljs$core$seq$$($elements__GT_clj$$) && $APP.$cljs$core$not_EQ_$$.$cljs$core$IFn$_invoke$arity$2$($elements$jscomp$16$$, $APP.$cljs$core$_deref$$($_STAR_elements$$)) ? ($state__$1$jscomp$10_state__$2$$ = $APP.$cljs_bean$core$__GT_clj$$($state__$1$jscomp$10_state__$2$$), $APP.$frontend$handler$draw$save_excalidraw_BANG_$$($file$jscomp$99$$, JSON.stringify($APP.$cljs_bean$core$__GT_js$$(new $APP.$cljs$core$PersistentArrayMap$$(null, 5, [$APP.$cljs$cst$keyword$type$$, "excalidraw", 
       $APP.$cljs$cst$keyword$version$$, 2, $APP.$cljs$cst$keyword$source$$, $APP.$frontend$config$website$$, $APP.$cljs$cst$keyword$elements$$, $elements$jscomp$16$$, $cljs$cst$keyword$appState$$, $APP.$cljs$core$select_keys$$($state__$1$jscomp$10_state__$2$$, new $APP.$cljs$core$PersistentVector$$(null, 2, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$cljs$cst$keyword$gridSize$$, $cljs$cst$keyword$viewBackgroundColor$$], null))], null)))), $APP.$cljs$core$reset_BANG_$$($_STAR_elements$$, $elements$jscomp$16$$)) : 
       null;
     }, $cljs$cst$keyword$zen_DASH_mode_DASH_enabled$$, $APP.$cljs$core$_deref$$($_STAR_zen_mode_QMARK_$$), $cljs$cst$keyword$view_DASH_mode_DASH_enabled$$, $APP.$cljs$core$_deref$$($_STAR_view_mode_QMARK_$$), $cljs$cst$keyword$grid_DASH_mode_DASH_enabled$$, !1, $cljs$cst$keyword$initial_DASH_data$$, $data$jscomp$205$$, $APP.$cljs$cst$keyword$width$$, $APP.$cljs$core$_deref$$($_STAR_draw_width$$)], null), $APP.$cljs$core$truth_$$($wide_mode_QMARK_$$) ? new $APP.$cljs$core$PersistentArrayMap$$(null, 
     1, [$APP.$cljs$cst$keyword$height$$, 650], null) : new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$height$$, 500], null)]));
-<<<<<<< HEAD
     return $frontend$extensions$excalidraw$excalidraw$$.$cljs$core$IFn$_invoke$arity$1$ ? $frontend$extensions$excalidraw$excalidraw$$.$cljs$core$IFn$_invoke$arity$1$($G__99619$$) : $frontend$extensions$excalidraw$excalidraw$$.call(null, $G__99619$$);
   }())])]) : null;
 }, new $APP.$cljs$core$PersistentVector$$(null, 7, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$rum$core$reactive$$, $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(800, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_draw_DASH_width$$), $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(!0, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_zen_DASH_mode_QMARK_$$), $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(!1, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_view_DASH_mode_QMARK_$$), 
 $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(null, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_elements$$), new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$did_DASH_mount$$, $frontend$extensions$excalidraw$update_draw_content_width$$], null), new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$did_DASH_update$$, $frontend$extensions$excalidraw$update_draw_content_width$$], null)], null), "frontend.extensions.excalidraw/draw-inner");
 $frontend$extensions$excalidraw$draw_container$$ = $APP.$rum$core$lazy_build$$($APP.$rum$core$build_defcs$$, function($_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$, $attrs99627_option$jscomp$26$$) {
-=======
-    return $frontend$extensions$excalidraw$excalidraw$$.$cljs$core$IFn$_invoke$arity$1$ ? $frontend$extensions$excalidraw$excalidraw$$.$cljs$core$IFn$_invoke$arity$1$($G__99597$$) : $frontend$extensions$excalidraw$excalidraw$$.call(null, $G__99597$$);
-  }())])]) : null;
-}, new $APP.$cljs$core$PersistentVector$$(null, 7, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$rum$core$reactive$$, $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(800, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_draw_DASH_width$$), $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(!0, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_zen_DASH_mode_QMARK_$$), $APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(!1, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_view_DASH_mode_QMARK_$$), 
-$APP.$rum$core$local$cljs$0core$0IFn$0_invoke$0arity$02$$(null, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_elements$$), new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$did_DASH_mount$$, $frontend$extensions$excalidraw$update_draw_content_width$$], null), new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$did_DASH_update$$, $frontend$extensions$excalidraw$update_draw_content_width$$], null)], null), "frontend.extensions.excalidraw/draw-inner");
-$frontend$extensions$excalidraw$draw_container$$ = $APP.$rum$core$lazy_build$$($APP.$rum$core$build_defcs$$, function($_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$, $attrs99602_option$jscomp$26$$) {
->>>>>>> 4e9e26ea08acfc48e9ea8494ab8058346804ff01
   var $_STAR_data_data$jscomp$206$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_data$$);
   $_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$ = $APP.$cljs$core$get$$.$cljs$core$IFn$_invoke$arity$2$($_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_loading_QMARK_$$);
   $_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$ = $APP.$rum$core$react$$($_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$);
   $_STAR_data_data$jscomp$206$$ = $APP.$rum$core$react$$($_STAR_data_data$jscomp$206$$);
   var $db_restoring_QMARK_$jscomp$4$$ = $APP.$frontend$state$sub$$($APP.$cljs$cst$keyword$db_SLASH_restoring_QMARK_$$);
-<<<<<<< HEAD
   return $APP.$cljs$core$truth_$$($APP.$cljs$cst$keyword$file$$.$cljs$core$IFn$_invoke$arity$1$($attrs99627_option$jscomp$26$$)) ? $APP.$cljs$core$truth_$$($db_restoring_QMARK_$jscomp$4$$) ? ($attrs99627_option$jscomp$26$$ = $APP.$frontend$ui$loading$$("Loading"), $APP.$daiquiri$core$create_element$$("div", $APP.$cljs$core$map_QMARK_$$($attrs99627_option$jscomp$26$$) ? $APP.$daiquiri$interpreter$attributes$$($APP.$daiquiri$normalize$merge_with_class$cljs$0core$0IFn$0_invoke$0arity$0variadic$$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([new $APP.$cljs$core$PersistentArrayMap$$(null, 
   1, [$APP.$cljs$cst$keyword$class$$, new $APP.$cljs$core$PersistentVector$$(null, 1, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, ["ls-center"], null)], null), $attrs99627_option$jscomp$26$$]))) : {className:"ls-center"}, $APP.$cljs$core$map_QMARK_$$($attrs99627_option$jscomp$26$$) ? null : [$APP.$daiquiri$interpreter$interpret$$($attrs99627_option$jscomp$26$$)])) : !1 === $_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$ ? $frontend$extensions$excalidraw$draw_inner$$($_STAR_data_data$jscomp$206$$, 
   $attrs99627_option$jscomp$26$$) : null : null;
@@ -839,27 +820,6 @@ $frontend$extensions$excalidraw$draw_container$$ = $APP.$rum$core$lazy_build$$($
           $data$jscomp$207_e$jscomp$inline_7670$$ = $e99612$jscomp$inline_7671$$, $APP.$cljs$core$println$$.$cljs$core$IFn$_invoke$arity$variadic$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$(["from json error:"])), console.dir($data$jscomp$207_e$jscomp$inline_7670$$), $data__$1$jscomp$9$$ = $APP.$frontend$handler$notification$show_BANG_$cljs$0core$0IFn$0_invoke$0arity$02$$($APP.$frontend$util$format$$("Could not load this invalid excalidraw file"), $APP.$cljs$cst$keyword$error$$);
         } else {
           throw $e99612$jscomp$inline_7671$$;
-=======
-  return $APP.$cljs$core$truth_$$($APP.$cljs$cst$keyword$file$$.$cljs$core$IFn$_invoke$arity$1$($attrs99602_option$jscomp$26$$)) ? $APP.$cljs$core$truth_$$($db_restoring_QMARK_$jscomp$4$$) ? ($attrs99602_option$jscomp$26$$ = $APP.$frontend$ui$loading$$("Loading"), $APP.$daiquiri$core$create_element$$("div", $APP.$cljs$core$map_QMARK_$$($attrs99602_option$jscomp$26$$) ? $APP.$daiquiri$interpreter$attributes$$($APP.$daiquiri$normalize$merge_with_class$cljs$0core$0IFn$0_invoke$0arity$0variadic$$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([new $APP.$cljs$core$PersistentArrayMap$$(null, 
-  1, [$APP.$cljs$cst$keyword$class$$, new $APP.$cljs$core$PersistentVector$$(null, 1, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, ["ls-center"], null)], null), $attrs99602_option$jscomp$26$$]))) : {className:"ls-center"}, $APP.$cljs$core$map_QMARK_$$($attrs99602_option$jscomp$26$$) ? null : [$APP.$daiquiri$interpreter$interpret$$($attrs99602_option$jscomp$26$$)])) : !1 === $_STAR_loading_QMARK_$jscomp$1_loading_QMARK_$jscomp$5_state$jscomp$281$$ ? $frontend$extensions$excalidraw$draw_inner$$($_STAR_data_data$jscomp$206$$, 
-  $attrs99602_option$jscomp$26$$) : null : null;
-}, new $APP.$cljs$core$PersistentVector$$(null, 2, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$rum$core$reactive$$, new $APP.$cljs$core$PersistentArrayMap$$(null, 1, [$APP.$cljs$cst$keyword$init$$, function($state$jscomp$282$$) {
-  var $file$jscomp$99_option$jscomp$27_vec__99603$$ = $APP.$cljs$cst$keyword$rum_SLASH_args$$.$cljs$core$IFn$_invoke$arity$1$($state$jscomp$282$$);
-  $file$jscomp$99_option$jscomp$27_vec__99603$$ = $APP.$cljs$core$nth$$.$cljs$core$IFn$_invoke$arity$3$($file$jscomp$99_option$jscomp$27_vec__99603$$, 0, null);
-  $file$jscomp$99_option$jscomp$27_vec__99603$$ = $APP.$cljs$cst$keyword$file$$.$cljs$core$IFn$_invoke$arity$1$($file$jscomp$99_option$jscomp$27_vec__99603$$);
-  var $_STAR_data$jscomp$1$$ = $APP.$cljs$core$atom$$.$cljs$core$IFn$_invoke$arity$1$(null), $_STAR_loading_QMARK_$jscomp$2$$ = $APP.$cljs$core$atom$$.$cljs$core$IFn$_invoke$arity$1$(!0);
-  $APP.$cljs$core$truth_$$($file$jscomp$99_option$jscomp$27_vec__99603$$) && $frontend$handler$draw$load_excalidraw_file$$($file$jscomp$99_option$jscomp$27_vec__99603$$, function($data$jscomp$207_e$jscomp$inline_7650$$) {
-    if ($APP.$clojure$string$blank_QMARK_$$($data$jscomp$207_e$jscomp$inline_7650$$)) {
-      var $data__$1$jscomp$9$$ = null;
-    } else {
-      try {
-        $data__$1$jscomp$9$$ = JSON.parse($data$jscomp$207_e$jscomp$inline_7650$$);
-      } catch ($e99588$jscomp$inline_7651$$) {
-        if ($e99588$jscomp$inline_7651$$ instanceof Error) {
-          $data$jscomp$207_e$jscomp$inline_7650$$ = $e99588$jscomp$inline_7651$$, $APP.$cljs$core$println$$.$cljs$core$IFn$_invoke$arity$variadic$($APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$(["from json error:"])), console.dir($data$jscomp$207_e$jscomp$inline_7650$$), $data__$1$jscomp$9$$ = $APP.$frontend$handler$notification$show_BANG_$cljs$0core$0IFn$0_invoke$0arity$02$$($APP.$frontend$util$format$$("Could not load this invalid excalidraw file"), $APP.$cljs$cst$keyword$error$$);
-        } else {
-          throw $e99588$jscomp$inline_7651$$;
->>>>>>> 4e9e26ea08acfc48e9ea8494ab8058346804ff01
         }
       }
     }
@@ -869,8 +829,8 @@ $frontend$extensions$excalidraw$draw_container$$ = $APP.$rum$core$lazy_build$$($
   return $APP.$cljs$core$assoc$$.$cljs$core$IFn$_invoke$arity$variadic$($state$jscomp$282$$, $cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_data$$, $_STAR_data$jscomp$1$$, $APP.$cljs$core$prim_seq$cljs$0core$0IFn$0_invoke$0arity$02$$([$cljs$cst$keyword$frontend_DOT_extensions_DOT_excalidraw_SLASH_loading_QMARK_$$, $_STAR_loading_QMARK_$jscomp$2$$]));
 }], null)], null), "frontend.extensions.excalidraw/draw-container");
 $APP.$frontend$extensions$excalidraw$draw$$ = $APP.$rum$core$lazy_build$$($APP.$rum$core$build_defc$$, function($option$jscomp$28$$) {
-  var $repo$jscomp$423$$ = $APP.$frontend$state$get_current_repo$$(), $granted_QMARK_$jscomp$2$$ = $APP.$frontend$state$sub$$(new $APP.$cljs$core$PersistentVector$$(null, 2, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$cljs$cst$keyword$nfs_SLASH_user_DASH_granted_QMARK_$$, $repo$jscomp$423$$], null));
-  return $APP.$frontend$config$local_db_QMARK_$$($repo$jscomp$423$$) && $APP.$cljs$core$not$$($granted_QMARK_$jscomp$2$$) && $APP.$cljs$core$not$$($APP.$frontend$util$electron_QMARK_$$()) ? null : $frontend$extensions$excalidraw$draw_container$$($option$jscomp$28$$);
+  var $repo$jscomp$424$$ = $APP.$frontend$state$get_current_repo$$(), $granted_QMARK_$jscomp$2$$ = $APP.$frontend$state$sub$$(new $APP.$cljs$core$PersistentVector$$(null, 2, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$cljs$cst$keyword$nfs_SLASH_user_DASH_granted_QMARK_$$, $repo$jscomp$424$$], null));
+  return $APP.$frontend$config$local_db_QMARK_$$($repo$jscomp$424$$) && $APP.$cljs$core$not$$($granted_QMARK_$jscomp$2$$) && $APP.$cljs$core$not$$($APP.$frontend$util$electron_QMARK_$$()) ? null : $frontend$extensions$excalidraw$draw_container$$($option$jscomp$28$$);
 }, new $APP.$cljs$core$PersistentVector$$(null, 1, 5, $APP.$cljs$core$PersistentVector$EMPTY_NODE$$, [$APP.$rum$core$reactive$$], null), "frontend.extensions.excalidraw/draw");
 $APP.$shadow$loader$mm$$.$setLoaded$();
 
