@@ -20,3 +20,8 @@
 #main-content-container {
   padding-top: 0px !important;
 }
+
+/* BEAR THEME */
+*:is(#main-content-container, #right-sidebar) {
+  font-family: "SF Pro Text";
+}
