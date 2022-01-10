@@ -1,1 +1,12 @@
 @import url('https://rcvd.github.io/logseq-bear-theme/bear.css');
+
+.block-children-left-border {
+  background-color: transparent !important;
+  border-left: 1px solid var(--ls-guideline-color);
+}
+
+.block-children-left-border:hover {
+  background-color: transparent !important;
+  border-left: 3px solid var(--ls-guideline-color);
+  margin-right: 0px;
+}
